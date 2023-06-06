@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin  } from "react-icons/fa"
 
 const Footer = () => {
     return (
@@ -83,8 +83,9 @@ const Footer = () => {
                 <div className="">
                     <div className='flex justify-evenly '>
                         <FaFacebook size={27} />
-                        <FaInstagram size={27} />
+                        <FaLinkedin size={27} />
                         <FaTwitter size={27} />
+                        <FaYoutube size={27} />
                     </div>
                 </div>
             </div>
