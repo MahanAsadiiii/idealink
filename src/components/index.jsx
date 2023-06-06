@@ -1,0 +1,5 @@
+export * from "./Card" 
+export * from "./Information" 
+export * from "./Header" 
+export * from "./Footer" 
+export * from "./CopyRight" 
