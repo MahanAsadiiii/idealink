@@ -3,11 +3,11 @@ import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin  } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <div className='flex w-full mx-auto bg-[#333333] text-white px-[202px] pb-[92px] pt-[45px] justify-between'>
+        <div className='flex w-full mx-auto bg-[#333333] text-white px-[150px] pb-[92px] pt-[45px] justify-evenly'>
 
-            <div className="flex flex-col bg-[#f3f3f3] px-[29px] py-[20px] rounded-lg">
+            <div className="flex flex-col bg-[#f3f3f3] px-[29px] py-[20px] rounded-lg basis-1/4">
                 <form action="">
-                    <div className="">
+                    <div>
                         <div className="flex ">
                             <div className='h-[18px] w-[2px] bg-[#1A9DAE] mr-[8px] my-auto'></div>
                             <h3 className='text-[20px] font-bold text-[#0C1744] text-xl'>Contact us</h3>
@@ -26,7 +26,7 @@ const Footer = () => {
             </div>
 
             <div className="flex basis-1/3">
-                <div className='basis-1/4 px-[70px]'>
+                <div className='basis-1/4 px-[40px]'>
                     <div className="flex">
                         <div className="h-[18px] w-[2px] bg-[#1A9DAE] mr-[8px] my-auto"></div>
                         <h6 className='text-sm font-bold'>Solutions</h6>
@@ -38,7 +38,7 @@ const Footer = () => {
                         <li className='py-2 text-xs'>Behavioral Profile</li>
                     </ul>
                 </div>
-                <div className='basis-1/4 px-[70px]'>
+                <div className='basis-1/4 px-[40px]'>
                     <div className="flex">
                         <div className="h-[18px] w-[2px] bg-[#1A9DAE] mr-[8px] my-auto"></div>
                         <h6 className='text-sm font-bold'>Company</h6>
@@ -50,7 +50,7 @@ const Footer = () => {
                         <li className='py-2 text-xs'>FAQ</li>
                     </ul>
                 </div>
-                <div className='basis-1/4 px-[70px]'>
+                <div className='basis-1/4 px-[40px]'>
                     <div className="flex">
                         <div className="h-[18px] w-[2px] bg-[#1A9DAE] mr-[8px] my-auto"></div>
                         <h6 className='text-sm font-bold'>Packages</h6>
@@ -62,7 +62,7 @@ const Footer = () => {
                         <li className='py-2 text-xs'>SPASAKA Growth Platform</li>
                     </ul>
                 </div>
-                <div className='basis-1/4 px-[70px]'>
+                <div className='basis-1/4 px-[40px]'>
                     <div className="flex">
                         <div className="h-[18px] w-[2px] bg-[#1A9DAE] mr-[8px] my-auto"></div>
                         <h6 className='text-sm font-bold'>Resources</h6>
@@ -74,11 +74,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className=" flex flex-col basis-1/3">
+            <div className=" flex flex-col basis-1/5">
                 <div className="flex flex-col mb-10 text-center">
-                    <a href="" className='text-xs mb-[15px]'>+1 415 707 3470</a>
-                    <a href="" className='text-xs mb-[15px]'>sales@ai-bees.io</a>
-                    <a href="" className='text-xs'>support@ai-bees.io</a>
+                    <a href="/" className='text-xs mb-[15px]'>+1 415 707 3470</a>
+                    <a href="/" className='text-xs mb-[15px]'>sales@ai-bees.io</a>
+                    <a href="/" className='text-xs'>support@ai-bees.io</a>
                 </div>
                 <div className="">
                     <div className='flex justify-evenly '>

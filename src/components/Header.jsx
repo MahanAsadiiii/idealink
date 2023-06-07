@@ -1,13 +1,9 @@
 import React from 'react'
-import { Logo,BackgroundImage } from '../utilities'
+// import { BackgroundImage } from '../utilities'
 
 const Header=() => {
   return (
-    <div className='flex flex-col my-0 mx-auto w-[1032px] pt-[25px] '>
-        <div className='flex justify-between'>
-            <img src={Logo} alt="/" className='w-[152px] h-[39px]'/>
-            <button className='border border-[#1A9DAE] px-4 py-2 rounded font-medium text-base text-[#1A9DAE]'>Log in</button>
-        </div>
+    <div className='flex flex-col my-0 mx-auto w-[1032px]'>
         <div className='flex flex-col mt-[233px] w-[803px] mx-auto'>
             <h2 className='text-black text-[40px] font-bold'>Sell Smarter <span className='text-[24px] pb-[7px]'>with</span> <span className='text-[#1A9DAE] text-[40px]'>AI-Personality Analysis</span></h2>
             <p className='text-center text-[16px] font-medium mt-[1rem]'>Don’t judge your prospects at the first glance</p>
