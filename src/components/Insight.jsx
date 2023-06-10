@@ -4,14 +4,14 @@ import { InsightPic,} from '../utilities'
 
 function Insight() {
     return (
-        <div className='flex flex-col w-[60vw] mx-auto px-auto bg-white px-6 mb-12'>
+        <div className='flex flex-col w-[1032px] mx-auto px-auto bg-white px-6 mb-12'>
             <div className="mx-auto mt-8 mb-[56px]">
                 <img src={InsightPic}  alt="/" className='mx-auto mb-4 ' />
                 <h1 className='text-[32px] font-bold text-black '>Insights For Selling To Mohammad</h1>
             </div>
 
             <div className="">
-                <div className="flex mx-auto bg-[#EAF0FF] max-w-[50%] justify-center border-x-4 border-[#C1D0F0] mb-[10px]">
+                <div className="flex mx-auto bg-[#EAF0FF] w-[60%] justify-center border-x-4 border-[#C1D0F0] mb-[10px]">
                     <h3 className='text-[26px] font-bold py-[9px] text-[#113D94]'>While Negotiating and Closing</h3>
                 </div>
                 <div className="flex justify-between">

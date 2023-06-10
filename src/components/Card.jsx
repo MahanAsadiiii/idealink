@@ -3,7 +3,7 @@ import { SolutionPic1, SolutionPic2, SolutionPic3 } from '../utilities'
 
 const Card = () => {
     return (
-        <div className='flex flex-col w-[973px] mt-[106px] mb-[97px] mx-auto'>
+        <div className='flex flex-col w-[1032px] mt-[106px] mb-[97px] mx-auto'>
             <div className="flex mx-auto ">
                 <h1 className='font-bold text-[32px] leadeing-[22px] text-[#0c1744]'>Our Solution is</h1>
             </div>

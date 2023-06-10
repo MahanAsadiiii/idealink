@@ -4,7 +4,7 @@ import { Object } from '../utilities'
 
 const Information = () => {
     return (
-        <div className='flex flex-col justify-around mt-[110px] w-[905px] mx-auto'>
+        <div className='flex flex-col justify-around mt-[110px] w-[1032px] mx-auto'>
             <div className="flex flex-col">
                 <h1 className='font-bold text-[32px] text-[#0C1743] mb-[19px] text-center leading-[30px]'>Know your prospects even before your meetings!</h1>
                 <p className='font-medium text-base text-[#787771] leading-[30px] text-center'>AI-Personality Analysis gives you a personality-based guide to understanding your prospects’</p>

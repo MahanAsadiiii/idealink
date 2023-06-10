@@ -5,7 +5,7 @@ function App2() {
   return (
     <div className="App">
       <Navbar />
-      <InputUrl className='my-[60px] w-[60vw]' />
+      <InputUrl className='mt-[60px] mb-[67px] w-[1032px]' />
       <Profile />
       <Proposal/>
       <Insight/>

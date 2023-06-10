@@ -2,7 +2,7 @@ import React from 'react'
 
 const OceanProfile = () => {
     return (
-        <div className='mx-auto w-[60vw] bg-white rounded-lg pl-[29px] pb-[106px] mb-[194px] '>
+        <div className='mx-auto w-[1032px] bg-white rounded-lg pl-[29px] pb-[106px] mb-[194px] '>
             <div className="pt-[56px] pl-[27px]">
                 <div className="flex">
                     <h1 className='text-[32px] font-bold font-[inter] pr-[10px]'>Ocean Profile:</h1>
@@ -21,8 +21,10 @@ const OceanProfile = () => {
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>OPENNESS</h2>
                         </div>
                         <div className="flex">
-                            <div className="h-[152px] w-3 bg-[#A96AC0] mr-6 basis-3"></div>
-                            <p className='text-lg font-normal font-[Inter] my-auto'>Sometimes called intellect or imagination, this represents the willingness to try new things and think outside the box. Traits include insightfulness, originality and curiosity.</p>
+                            <div className="basis-[1%]">
+                                <div className="w-1 bg-[#A96AC0] h-[152px] "></div>
+                            </div>
+                            <p className='text-lg font-normal font-[Inter] my-auto ml-6'>Sometimes called intellect or imagination, this represents the willingness to try new things and think outside the box. Traits include insightfulness, originality and curiosity.</p>
                         </div>
                     </div>
                     <div className="mt-[28px]">
@@ -31,8 +33,10 @@ const OceanProfile = () => {
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>EXTROVERSION</h2>
                         </div>
                         <div className="flex">
-                            <div className="h-[152px] w-3 bg-[#DF6C6C] mr-6 basis-3"></div>
-                            <p className='text-lg font-normal font-[Inter] my-auto'>A state where an individual draws energy from others and seeks social connections or interaction, as opposed to being alone (introversion). Traits include being outgoing, energetic and confident.</p>
+                            <div className="basis-[1%]">
+                                <div className="bg-[#DF6C6C] w-1 h-[152px] "></div>
+                            </div>
+                            <p className='text-lg font-normal font-[Inter] my-auto ml-6'>A state where an individual draws energy from others and seeks social connections or interaction, as opposed to being alone (introversion). Traits include being outgoing, energetic and confident.</p>
                         </div>
                     </div>
                     <div className="mt-[28px]">
@@ -40,9 +44,11 @@ const OceanProfile = () => {
                             <h1 className='bg-[#E9F9FC] px-[15px] py-[10px] mr-4 text-2xl font-extrabold font-[Inter] text-[#39B3C1] rounded-md'>N</h1>
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>NEUROTICISM</h2>
                         </div>
-                        <div className="flex">
-                            <div className="h-[152px] w-2 bg-[#39B3C1] mr-6 basis-3"></div>
-                            <p className='text-lg font-normal font-[Inter] my-auto'>A tendency towards negative personality traits, emotional instability and self-destructive thinking. Traits include pessimism, anxiety, insecurity and fearfulness.</p>
+                        <div className="flex justify-between">
+                            <div className="basis-[1%]">
+                                <div className='h-[152px] bg-[#39B3C1] w-1'></div>
+                            </div>
+                            <p className='text-lg font-normal font-[Inter] my-auto ml-6 basis-[90%]'>A tendency towards negative personality traits, emotional instability and self-destructive thinking. Traits include pessimism, anxiety, insecurity and fearfulness.</p>
                         </div>
                     </div>
                 </div>

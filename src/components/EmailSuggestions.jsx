@@ -3,7 +3,7 @@ import { Email } from '../utilities'
 
 const EmailSuggestions = () => {
     return (
-        <div className='flex flex-col bg-white rounded px-[10px] w-[60vw] mx-auto mb-[58px]'>
+        <div className='flex flex-col bg-white rounded px-[10px] w-[1032px] mx-auto mb-[58px]'>
 
             <div className="mx-auto mt-8 mb-[40px]">
                 <img src={Email} alt="" className='mx-auto mb-4' />

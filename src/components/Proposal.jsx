@@ -4,7 +4,7 @@ import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/ai"
 
 const Proposal = () => {
     return (
-        <div className='flex justify-between w-[60vw] mx-auto mb-8'>
+        <div className='flex justify-between w-[1032px] mx-auto mb-8'>
 
             <div className="bg-[#F5FFFC] px-6 py-8 basis-[48%] rounded border-b-2 border-[#81E09D]">
                 <div className="flex mb-[16px]">
