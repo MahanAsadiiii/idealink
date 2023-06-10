@@ -21,7 +21,7 @@ const OceanProfile = () => {
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>OPENNESS</h2>
                         </div>
                         <div className="flex">
-                            <div className="h-[152px] w-2 bg-[#A96AC0] mr-6"></div>
+                            <div className="h-[152px] w-3 bg-[#A96AC0] mr-6 basis-3"></div>
                             <p className='text-lg font-normal font-[Inter] my-auto'>Sometimes called intellect or imagination, this represents the willingness to try new things and think outside the box. Traits include insightfulness, originality and curiosity.</p>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const OceanProfile = () => {
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>EXTROVERSION</h2>
                         </div>
                         <div className="flex">
-                            <div className="h-[152px] w-2 bg-[#DF6C6C] mr-6"></div>
+                            <div className="h-[152px] w-3 bg-[#DF6C6C] mr-6 basis-3"></div>
                             <p className='text-lg font-normal font-[Inter] my-auto'>A state where an individual draws energy from others and seeks social connections or interaction, as opposed to being alone (introversion). Traits include being outgoing, energetic and confident.</p>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const OceanProfile = () => {
                             <h2 className='text-[22px] font-semibold font-[Inter] my-auto'>NEUROTICISM</h2>
                         </div>
                         <div className="flex">
-                            <div className="h-[152px] w-2 bg-[#39B3C1] mr-6"></div>
+                            <div className="h-[152px] w-2 bg-[#39B3C1] mr-6 basis-3"></div>
                             <p className='text-lg font-normal font-[Inter] my-auto'>A tendency towards negative personality traits, emotional instability and self-destructive thinking. Traits include pessimism, anxiety, insecurity and fearfulness.</p>
                         </div>
                     </div>
