@@ -1,8 +1,9 @@
 import React from 'react'
+import Section from './Section'
 
 const IputUrl = (props) => {
     return (
-        <div>
+        <Section>
             <div className={`bg-[#ffffff] flex flex-col px-8 py-6 rounded-lg mx-auto ${props.className}`}>
                 <h5 className='bg-white font-normal text-base'>Enter LinkedIn Profile URL</h5>
                 <div className='flex justify-between mt-2 bg-white'>
@@ -10,7 +11,7 @@ const IputUrl = (props) => {
                     <button className='bg-[#1A9DAE] rounded text-white text-[16px] font-semibold px-8 py-3'>Analyze</button>
                 </div>
             </div>
-        </div>
+        </Section>
     )
 }
 

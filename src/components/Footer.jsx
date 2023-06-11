@@ -1,10 +1,13 @@
 import React from 'react'
 import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa"
+import Section from './Section'
 
 const Footer = () => {
     return (
         <div className='w-full bg-[#333333] '>
-            <div className='w-[1032px] flex  mx-auto  text-white pb-[92px] pt-[45px] justify-evenly'>
+            <Section>
+            
+            <div className='flex text-white pb-[92px] pt-[45px]'>
                 <div className="flex flex-col bg-[#f3f3f3] px-[29px] py-[20px] rounded-lg basis-1/4">
                     <form action="">
                         <div>
@@ -90,6 +93,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            </Section>
         </div>
     )
 }

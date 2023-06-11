@@ -1,11 +1,15 @@
 import React from 'react'
-import { ImageProfile } from '../utilities'
+import { ImageProfile, Arrow ,ReverseArrow  } from '../utilities'
 import { FaLinkedin } from "react-icons/fa"
+import Section from './Section'
 
 const Profile = () => {
     return (
-        <div className='flex mx-auto w-[1032px] bg-white rounded-lg py-[32px] pr-[139px] mb-[24px] justify-evenly'>
-            <img src={ImageProfile} alt="/" className='w-[150px] h-[150px] mx-5' />
+        <Section>
+        <div className='flex mx-auto w-full bg-white rounded-lg py-8 pr-[139px] mb-6 justify-evenly relative'>
+            <img src={Arrow} alt="" className='absolute bottom-0 left-0 '/>
+            <img src={ReverseArrow } alt="" className='absolute top-0 right-0 '/>
+            <img src={ImageProfile} alt="/" className='w-[160px] h-[160px] ' />
             <div className="flex flex-col ml-4 ">
                 <h2 className='text-[40px] font-bold mb-2'>Mohammad Eskini</h2>
                 <div className="flex">
@@ -26,6 +30,7 @@ const Profile = () => {
                 </div>
             </div>
         </div>
+        </Section>
     )
 }
 
