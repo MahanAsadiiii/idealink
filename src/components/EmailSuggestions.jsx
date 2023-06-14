@@ -5,15 +5,15 @@ import Section from './Section'
 const EmailSuggestions = () => {
     return (
         <Section>
-            <div className='flex flex-col bg-white rounded px-[10px]  mx-auto mb-[58px]'>
+            <div className='flex flex-col bg-white rounded px-[10px] mb-[58px]'>
 
-                <div className="mx-auto mt-8 mb-[40px]">
-                    <img src={Email} alt="" className='mx-auto mb-4' />
-                    <h1 className='text-[32px] font-bold '>When Writing An Email To Mohammad</h1>
+                <div className="flex flex-col justify-center mt-8 mb-[40px]">
+                    <img src={Email} alt="" className='mb-4 mx-auto' />
+                    <h1 className='text-[32px] font-bold flex justify-center'>When Writing An Email To Mohammad</h1>
                 </div>
 
-                <div className="flex justify-evenly mb-[67px]">
-                    <div className="basis-[48%] pl-4 bg-[#F9F8FE] rounded-lg pt-3">
+                <div className="flex justify-evenly mb-[67px] gap-3">
+                    <div className="basis-1/2 pl-4 bg-[#F9F8FE] rounded-lg pt-3">
                         <div className="my-[10px]">
                             <div className="flex mb-1">
                                 <h4 className='mr-[10px] font-medium text-xl'>Subject:</h4>
@@ -63,7 +63,7 @@ const EmailSuggestions = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="basis-[48%] pl-4 bg-[#F9F8FE] rounded-lg pt-3">
+                    <div className="basis-1/2 pl-4 bg-[#F9F8FE] rounded-lg pt-3">
                         <div className="my-[10px]">
                             <div className="flex mb-1">
                                 <h4 className='mr-[10px] font-medium text-xl'>Closing Line:</h4>

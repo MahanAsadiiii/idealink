@@ -19,17 +19,17 @@ function Insight() {
                     <div className="flex justify-between gap-6">
                         <div className="bg-[#FCFCFF] border-b-2 border-[#C1D0F0] basis-1/2 pl-4 ">
                             <div className="flex">
-                                <img src={Support} alt="" />
+                                <img src={Support} alt="" className='mr-2' />
                                 <h4 className='font-semibold text-lg mb-[7px] mt-[24px]'>The Secret To Closing fast with Mohammad Is</h4>
                             </div>
-                            <p className='text-sm font-normal mb-[31px]'>Relationships and rapport matter to them, but so does the value of the product.</p>
+                            <p className='text-sm font-normal ml-10 mb-[31px]'>Relationships and rapport matter to them, but so does the value of the product.</p>
                         </div>
                         <div className="bg-[#FCFCFF] border-b-2 border-[#C1D0F0] basis-1/2 pl-4 ">
                             <div className="flex">
-                                <img  src={ Conversation } alt="" />
+                                <img  src={ Conversation } alt="" className='mr-2' />
                                 <h4 className='font-semibold text-lg mb-[7px] mt-[24px]'>Will You ever get a clear Answer?</h4>
                             </div>
-                            <p className='text-sm font-normal mb-[31px]'>Relationships and rapport matter to them, but so does the value of the product.</p>
+                            <p className='text-sm font-normal ml-10 mb-[31px]'>Relationships and rapport matter to them, but so does the value of the product.</p>
                         </div>
                     </div>
                 </div>
@@ -41,17 +41,17 @@ function Insight() {
                     <div className="flex justify-between gap-6">
                         <div className="bg-[#FCFCFF] border-b-2 border-[#BCF0D2] basis-1/2 pl-4 ">
                             <div className="flex">
-                                <img src={ Speed } alt="" />
+                                <img src={ Speed } alt="" className='mr-2' />
                                 <h4 className='font-semibold text-lg mb-[7px] mt-[24px]'>How Fast/Slow Mohammad will move?</h4>
                             </div>
-                            <p className='text-sm font-normal mb-[31px]'>They are not the ones to make fast decisions, even while they stay committed.</p>
+                            <p className='text-sm font-normal ml-10 mb-[31px]'>They are not the ones to make fast decisions, even while they stay committed.</p>
                         </div>
                         <div className="bg-[#FCFCFF] border-b-2 border-[#BCF0D2] basis-1/2 pl-4 ">
                             <div className="flex">
-                                <img src={ Risks } alt="" />
+                                <img src={ Risks } alt="" className='mr-2' />
                                 <h4 className='font-semibold text-lg mb-[7px] mt-[24px]'>Can Mohammad Take Some Risk Or Not?</h4>
                             </div>
-                            <p className='text-sm font-normal mb-[31px]'>If it seems really necessary, they can take small risks.</p>
+                            <p className='text-sm font-normal ml-10 mb-[31px]'>If it seems really necessary, they can take small risks.</p>
                         </div>
                     </div>
                 </div>
