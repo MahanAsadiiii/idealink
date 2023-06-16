@@ -5,9 +5,9 @@ import Section from './Section'
 const Footer = () => {
     return (
         <div className='w-full bg-[#333333]'>
-            <div className='flex md:justify-center flex-col md:flex-row text-white pb-16 pt-11'>
+            <div className='flex md:justify-center flex-col md:flex-row text-white py-11 px-8'>
                 
-                <div className="flex flex-col bg-[#f3f3f3] px-4 py-3 md:px-7 md:py-5 rounded-lg mx-7 mb-8 md:mx-0 md:basis-1/4">
+                <div className="flex flex-col bg-[#f3f3f3] px-4 py-3 md:px-7 md:py-5 rounded-lg mb-8 md:mx-0 md:basis-1/4">
                     <form action="">
                         <div>
                             <div className="flex ">
@@ -27,7 +27,7 @@ const Footer = () => {
                     </form>
                 </div>
 
-                <div className="flex justify-evenly md:basis-1/3 md:ml-3 md:mt-3">
+                <div className="flex flex-wrap justify-evenly md:basis-1/3 md:ml-3 md:mt-3">
                     <div className='basis-1/5 px-3'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
@@ -68,7 +68,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-1/5 px-3'>
+                    <div className='basis-1/5 px-3 mt-7'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Packages</h6>
@@ -88,7 +88,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-1/5 px-3'>
+                    <div className='basis-1/5 px-3 mt-7'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Resources</h6>
@@ -104,11 +104,11 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className=" flex flex-col md:basis-1/5 mt-12 md:mt-8">
-                    <div className="flex justify-evenly md:flex-col mb-5 md:mb-10 text-center">
-                        <a href="*" className='text-xs mb-4'>+1 415 707 3470</a>
-                        <a href="*" className='text-xs mb-4'>sales@ai-bees.io</a>
-                        <a href="*" className='text-xs'>support@ai-bees.io</a>
+                <div className=" flex flex-col md:basis-1/5  mt-9 md:mt-8">
+                    <div className="flex justify-evenly md:flex-col mb-7 md:mb-10 text-center">
+                        <a href="*" className='text-[10px]'>+1 415 707 3470</a>
+                        <a href="*" className='text-[10px]'>sales@ai-bees.io</a>
+                        <a href="*" className='text-[10px]'>support@ai-bees.io</a>
                     </div>
                     <div className="">
                         <div className='flex justify-evenly '>

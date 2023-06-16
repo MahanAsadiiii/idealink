@@ -6,11 +6,11 @@ import Section from './Section'
 const Profile = () => {
     return (
         <Section>
-        <div className='flex mx-auto w-full bg-white rounded-lg py-8 pr-[139px] mb-6 justify-evenly relative'>
-            <img src={Arrow} alt="" className='absolute bottom-0 left-0 '/>
-            <img src={ReverseArrow } alt="" className='absolute top-0 right-0 '/>
-            <img src={ImageProfile} alt="/" className='w-[160px] h-[160px] ' />
-            <div className="flex flex-col ml-4 ">
+        <div className='flex justify-center bg-white rounded-lg py-8 mb-6 md:justify-evenly w-full relative'>
+            <img src={Arrow} alt="Arrow" className='absolute bottom-0 left-0 '/>
+            <img src={ReverseArrow } alt="Reverse arrow" className='absolute top-0 right-0 '/>
+            <img src={ImageProfile} alt="Profile picture" className='top-0' />
+            <div className="flex flex-col ml-4 basis-4/6">
                 <h2 className='text-[40px] font-bold mb-2'>Mohammad Eskini</h2>
                 <div className="flex">
                     <FaLinkedin color='#0077B5' size={25} className='mr-3 my-auto' />

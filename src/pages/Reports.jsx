@@ -1,11 +1,14 @@
 import Layout from "../components/Layout";
 import { Profile, Proposal, Insight, EmailSuggestions, DiskProfile, OceanProfile } from "../components";
 import InputUrl from "../components/InputUrl";
+import Section from "../components/Section";
 
 const Reports = () => {
     return (
         <Layout>
-            <InputUrl className='mt-[60px] mb-[67px] w-full' />
+            <Section>
+            <InputUrl className='mt-[60px] mb-[67px]' />
+            </Section>
             <Profile />
             <Proposal />
             <Insight />
