@@ -1,12 +1,11 @@
 import React from 'react'
 import { Logo } from '../utilities'
-import Section from './Section'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
-      <div className="w-full mt-4 flex justify-between items-center">
+      <div className="w-full mt-4 flex justify-between items-centern md:px-14">
         <Link rel="stylesheet" to="/home" className='scale-75 md:scale-100 left-0  m-0'>
           <img src={Logo} alt="logo" className='left-0 m-0' />
         </Link>
