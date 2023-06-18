@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa"
-import Section from './Section'
 
 const Footer = () => {
     return (
@@ -28,7 +27,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-wrap justify-evenly md:basis-1/3 md:ml-3 md:mt-3">
-                    <div className='basis-1/5 px-3'>
+                    <div className='basis-1/5 px-5 md:px-4'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Solutions</h6>
@@ -48,7 +47,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-1/5 px-3'>
+                    <div className='basis-1/5 px-5 md:px-4'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Company</h6>
@@ -68,7 +67,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-1/5 px-3 mt-7'>
+                    <div className='basis-1/5 px-5 md:px-4 mt-7 md:mt-0'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Packages</h6>
@@ -88,7 +87,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='basis-1/5 px-3 mt-7'>
+                    <div className='basis-1/5 px-5 md:px-4 mt-7 md:mt-0'>
                         <div className="flex">
                             <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
                             <h6 className='text-sm font-bold'>Resources</h6>

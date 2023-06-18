@@ -7,7 +7,7 @@ const Reports = () => {
     return (
         <Layout>
             <Section>
-            <InputUrl className='mt-[60px] mb-[67px]' />
+            <InputUrl className='my-8 md:my-16' />
             </Section>
             <Profile />
             <Proposal />
