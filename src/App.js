@@ -1,15 +1,17 @@
-import { Card, Header, Information, Footer, CopyRight} from "./components";
+// import { Card, Header, Information, Footer, CopyRight, Navbar } from "./components";
+import Home from './pages/Home';
+import Reports from './pages/Reports'
+import { Route, Routes } from 'react-router-dom'
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Information/>
-      <Card/>
-      <Footer/>
-      <CopyRight/>
-    </div>
+    <>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/reports' element={<Reports/>}/>
+        </Routes>
+    </>
   );
 }
 
