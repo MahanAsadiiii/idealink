@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="w-full md:py-2 flex justify-between items-center md:px-14 bg-white border-b-2 border-gray-500">
         <Link rel="stylesheet" to="/" className='scale-75 md:scale-100 left-0  m-0'>
-          <img src={Logo} alt="logo" width={130} height={150} className='left-0 m-0' />
+          <img src={Logo} alt="logo-sign" width={130} height={120} className='left-0 m-1' />
         </Link>
         <div className="mr-3">
           <a href="/" className='border border-[#ae351a] py-1 px-2 md:px-4 md:py-2 rounded font-medium text-xs md:text-base text-[#ae351a] mr-2 hover:bg-[#ae351a] hover:text-white'>Home</a>
