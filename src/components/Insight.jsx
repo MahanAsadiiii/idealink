@@ -1,6 +1,6 @@
 import React from 'react'
 import { InsightPic, Support, Conversation, Risks, Speed } from '../utilities/Index'
-import Section from './Section'
+import {Section} from "../components/index"
 
 
 function Insight() {

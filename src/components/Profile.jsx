@@ -1,7 +1,7 @@
 import React from 'react'
-import { ImageProfile, Arrow ,ReverseArrow  } from '../utilities/Index'
+import { ProfilePic, Arrow ,ReverseArrow  } from '../utilities/Index'
 import { FaLinkedin } from "react-icons/fa"
-import Section from './Section'
+import {Section} from "../components/index"
 
 const Profile = () => {
     return (
@@ -10,13 +10,13 @@ const Profile = () => {
             <img src={Arrow} alt="Arrow" className='absolute bottom-0 left-0 scale-100'/>
             <img src={ReverseArrow } alt="Reverse-arrow" className='absolute top-0 right-0 scale-100 lg:'/>
             <div className="py-5">
-            <img src={ImageProfile} alt="Profile-pic" className='h-24 lg:h-40 lg:scale-100' />
+            <img src={ProfilePic} alt="Profile-pic" className='h-24 lg:h-48 lg:scale-100 rounded-full' />
             </div>
             <div className="flex flex-col lg:px-0 basis-4/6">
-                <h2 className='text-2xl lg:text-4xl font-bold mb-2 lg:mb-4'>Mohammad Eskini</h2>
+                <h2 className='text-2xl lg:text-4xl font-bold mb-2 lg:mb-4'>Mahan Asadi</h2>
                 <div className="flex">
                     <FaLinkedin color='#0077B5' size={25} className='mr-3' />
-                    <a href="/" className='underline text-xs lg:text-base font-medium'>https://www.linkedin.com/in/mohammad-eskini-7282381a4</a>
+                    <a href="https://www.linkedin.com/in/mahan-asadi-701690277/" className='underline text-xs lg:text-base font-medium'>https://www.linkedin.com/in/mahan-asadi-701690277/</a>
                 </div>
                 <div className="flex flex-col lg:flex-row my-7">
                     <div className="bg-[#D9E6FF] flex justify-center px-3.5 py-2 rounded text-[#003497] text-xs lg:text-sm font-semibold mb-4 lg:mb-0">Consensus Focused</div>

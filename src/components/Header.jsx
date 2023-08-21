@@ -1,12 +1,12 @@
 import React from 'react'
 import InputUrl from './InputUrl'
 import { BackgroundImage } from '../utilities/Index'
-import Section from './Section'
+import {Section} from "../components/index"
 
 const Header = () => {
   return (
     <div>
-      <img src={BackgroundImage} alt="" className='hidden lg:block lg:absolute lg:top-0 lg:left-0 z-[-999] lg:mt-4' />
+      <img src={BackgroundImage} alt="" className='hidden w-full lg:block lg:absolute lg:top-14 lg:left-0 -z-20 lg:mt-4' />
       <Section>
         <div className='flex w-full flex-col mt-12 lg:mt-56 justify-center relative'>
           <div className='flex flex-col justify-center'>

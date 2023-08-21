@@ -1,6 +1,6 @@
 import React from 'react'
 import { Object } from '../utilities/Index'
-import Section from './Section'
+import {Section} from "../components/index"
 
 
 const Information = () => {

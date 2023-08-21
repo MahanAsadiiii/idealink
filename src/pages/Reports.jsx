@@ -1,7 +1,6 @@
-import Layout from "../components/Layout";
-import { Profile, Proposal, Insight, EmailSuggestions, DiskProfile, OceanProfile } from "../components";
+import { Profile, Proposal, Insight, EmailSuggestions, DiskProfile, OceanProfile ,Layout} from "../components";
 import InputUrl from "../components/InputUrl";
-import Section from "../components/Section";
+import {Section} from "../components/index"
 
 const Reports = () => {
     return (

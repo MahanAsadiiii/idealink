@@ -1,5 +1,4 @@
-import { Card, Header, Information} from "../components";
-import Layout from "../components/Layout";
+import { Card, Header, Information,Layout} from "../components";
 
 function Home() {
   return (

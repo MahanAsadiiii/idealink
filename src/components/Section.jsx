@@ -8,4 +8,4 @@ const Section =({children}) => {
   )
 }
 
-export default Section
+export {Section}

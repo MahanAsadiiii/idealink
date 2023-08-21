@@ -1,6 +1,6 @@
 import React from 'react'
 import { Diagram2 } from '../utilities/Index'
-import Section from './Section'
+import {Section} from "../components/index"
 
 const OceanProfile = () => {
 

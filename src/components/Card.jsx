@@ -1,11 +1,11 @@
 import React from 'react'
 import { SolutionPic1, SolutionPic2, SolutionPic3 } from '../utilities/Index'
-import Section from './Section'
+import {Section} from "../components/index"
 
 const Card = () => {
     return (
         <Section>
-            <div className='flex flex-col mt-14 mb-16 lg:mt-28 lg:mb-24 justify-center w-full'>
+            <div className='flex flex-col mt-14 mb-16 lg:mt-28 lg:mb-36 justify-center w-full'>
                 <div className="flex mx-auto ">
                     <h1 className='font-bold text-xl lg:text-4xl text-[#0c1744]'>Our Solution is</h1>
                 </div>

@@ -3,8 +3,8 @@ import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <div className='w-full bg-[#333333]'>
-            <div className='flex lg:justify-evenly flex-col lg:flex-row text-white py-11 px-8'>
+        <div className='w-full bg-[#333333] '>
+            <div className='flex lg:justify-evenly flex-col lg:flex-row text-white py-11 px-8 items-center'>
 
                 <div className="flex flex-col bg-[#f3f3f3] px-4 py-3 lg:px-7 lg:py-5 rounded-lg mb-8 lg:mx-0 lg:basis-1/4">
                     <form action="">
@@ -27,43 +27,43 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-evenly lg:basis-2/5 my-3">
-                    <div className="flex basis-1/2 justify-evenly">
+                    <div className="flex basis-1/2 justify-evenly items-start">
                         <div className='px-5 lg:px-4 basis-2/5'>
-                            <div className="flex">
+                            <div className="flex items-center">
                                 <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
-                                <h6 className='text-sm font-bold'>Solutions</h6>
+                                <h6 className='text-sm font-bold lg:text-lg'>Solutions</h6>
                             </div>
                             <ul>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Al Nector</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Al Memory</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Al Harvest</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Behavioral Profile</a>
                                 </li>
                             </ul>
                         </div>
                         <div className='px-5 lg:px-4 basis-2/5'>
-                            <div className="flex">
+                            <div className="flex items-center">
                                 <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
-                                <h6 className='text-sm font-bold'>Company</h6>
+                                <h6 className='text-sm font-bold lg:text-lg'>Company</h6>
                             </div>
                             <ul>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">About us</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Careers</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Case Studies</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">FAQ</a>
                                 </li>
                             </ul>
@@ -71,35 +71,35 @@ const Footer = () => {
                     </div>
                     <div className="flex justify-evenly mt-7 md:mt-0 basis-1/2">
                         <div className=' px-5 lg:px-4 basis-2/5'>
-                            <div className="flex">
+                            <div className="flex items-center">
                                 <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
-                                <h6 className='text-sm font-bold'>Packages</h6>
+                                <h6 className='text-sm font-bold lg:text-lg'>Packages</h6>
                             </div>
                             <ul>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs  lg:text-base'>
                                     <a href="*">Overview</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs  lg:text-base'>
                                     <a href="*">ROYAL JELLY</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs  lg:text-base'>
                                     <a href="*">SPASAKA Growth</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">SPASAKA Growth Platform</a>
                                 </li>
                             </ul>
                         </div>
                         <div className='px-5 lg:px-4 basis-2/5'>
-                            <div className="flex">
+                            <div className="flex items-center">
                                 <div className="h-5 w-0.5 bg-[#1A9DAE] mr-2"></div>
-                                <h6 className='text-sm font-bold'>Resources</h6>
+                                <h6 className='text-sm font-bold lg:text-lg'>Resources</h6>
                             </div>
                             <ul>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Founder Series</a>
                                 </li>
-                                <li className='py-2 text-xs'>
+                                <li className='py-2 text-xs lg:text-base'>
                                     <a href="*">Articles</a>
                                 </li>
                             </ul>
@@ -109,9 +109,9 @@ const Footer = () => {
 
                 <div className=" flex flex-col lg:basis-1/5  mt-9 lg:mt-8">
                     <div className="flex justify-evenly lg:flex-col mb-7 lg:mb-10 text-center">
-                        <a href="*" className='text-[10px]'>+1 415 707 3470</a>
-                        <a href="*" className='text-[10px]'>sales@ai-bees.io</a>
-                        <a href="*" className='text-[10px]'>support@ai-bees.io</a>
+                        <a href="*" className='text-xs lg:text-base'>+1 415 707 3470</a>
+                        <a href="*" className='text-xs lg:text-base'>sales@ai-bees.io</a>
+                        <a href="*" className='text-xs lg:text-base'>support@ai-bees.io</a>
                     </div>
                     <div className="">
                         <div className='flex justify-evenly '>

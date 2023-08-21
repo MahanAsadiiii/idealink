@@ -1,5 +1,6 @@
 import React from 'react'
 import { Footer, Navbar, CopyRight } from ".";
+
 const Layout = ({ children }) => {
     return (
         <div>
@@ -11,4 +12,4 @@ const Layout = ({ children }) => {
     )
 }
 
-export default Layout
+export {Layout}

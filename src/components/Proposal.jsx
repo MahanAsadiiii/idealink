@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/ai"
-import Section from './Section'
+import {Section} from "../components/index"
 
 const Proposal = () => {
     return (
