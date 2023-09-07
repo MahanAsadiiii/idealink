@@ -1,5 +1,5 @@
 import React from 'react'
-import { Diagram1 } from '../utilities/Index'
+import { Diagram1 } from '../utilities/Images'
 import {Section} from "../components/index"
 
 const DiskProfile = () => {

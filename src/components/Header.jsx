@@ -1,6 +1,6 @@
 import React from 'react'
 import InputUrl from './InputUrl'
-import { BackgroundImage } from '../utilities/Index'
+import { BackgroundImage } from '../utilities/Images'
 import {Section} from "../components/index"
 
 const Header = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Email } from '../utilities/Index'
+import { Email } from '../utilities/Images'
 import {Section} from "../components/index"
 
 const EmailSuggestions = () => {

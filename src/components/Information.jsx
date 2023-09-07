@@ -1,5 +1,5 @@
 import React from 'react'
-import { Object } from '../utilities/Index'
+import { Object } from '../utilities/Images'
 import {Section} from "../components/index"
 
 

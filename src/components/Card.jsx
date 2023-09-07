@@ -1,5 +1,5 @@
 import React from 'react'
-import { SolutionPic1, SolutionPic2, SolutionPic3 } from '../utilities/Index'
+import { SolutionPic1, SolutionPic2, SolutionPic3 } from '../utilities/Images'
 import {Section} from "../components/index"
 
 const Card = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { InsightPic, Support, Conversation, Risks, Speed } from '../utilities/Index'
+import { InsightPic, Support, Conversation, Risks, Speed } from '../utilities/Images'
 import {Section} from "../components/index"
 
 

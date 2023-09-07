@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProfilePic, Arrow ,ReverseArrow  } from '../utilities/Index'
+import { ProfilePic, Arrow ,ReverseArrow  } from '../utilities/Images'
 import { FaLinkedin } from "react-icons/fa"
 import {Section} from "../components/index"
 

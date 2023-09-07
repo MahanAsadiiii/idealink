@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo2 } from '../utilities/Index'
+import { Logo2 } from '../utilities/Images'
 
 function CopyRight() {
   return (
