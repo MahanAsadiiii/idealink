@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Navbar, CopyRight } from ".";
+import { Footer, Navbar, CopyRight } from "./index";
 
 const Layout = ({ children }) => {
     return (
